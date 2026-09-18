@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color : rgb(20, 20, 20);
+  --text-color : rgb(232, 232, 232);
+  --bg-web1 : #2A0A1F;
+  --bg-header : #20091b;
+}
+
+html {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
